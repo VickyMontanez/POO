@@ -17,6 +17,46 @@
 </head>
 
 <body>
-    
+    <h1>lapiz</h1>
+    <form class="row g-3 p-5">
+        <fieldset class="border rounded-3 p-3">
+            <legend class="float-none w-auto px-3 d-flex flex-nowrap">Clase Lapiz</legend>
+            <label>Color :</label><input type="color" name="color"><br>
+            <label>Dimension :</label><input type="range" name="dimension"><br>
+            <fieldset class="border rounded-3 p-3 d-flex flex-nowrap">
+                <legend class="float-none w-auto px-3">Marca</legend>
+                <input type="radio" name="marca" value="Mongo"><label class="p-0">Mongo</label><br>
+                <input type="radio" name="marca" value="Norma"><label>Norma</label><br>
+                <input type="radio" name="marca" value="Fabel Castle"><label>Fabel Castle</label><br>
+                <input type="radio" name="marca" value="Big"><label>Big</label><br>
+            </fieldset>
+            <fieldset class="border rounded-3 p-3 d-flex flex-nowrap">
+                <legend class="float-none w-auto px-3">Borrador</legend>
+                <input type="radio" name="borrador" value="true"><label>Tiene</label><br>
+                <input type="radio" name="borrador" value="false"><label>No tiene</label><br>
+            </fieldset>
+            <fieldset class="border rounded-3 p-3 d-flex flex-nowrap">
+                <legend class="float-none w-auto px-3">Material</legend>
+                <input type="radio" name="material" value="Madera"><label>Madera</label><br>
+                <input type="radio" name="material" value="Goma"><label>Goma</label><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <table border="solid">
+        <thead>
+            <tr>
+                <th>Color</th>
+                <th>Dimension</th>
+                <th>Marca</th>
+                <th>Borrador</th>
+                <th>Material</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
 </body>
 </html>
